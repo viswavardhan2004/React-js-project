@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+.HeaderContainer{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #111;
+    color: white;
+    font-style:unset;
+    height:80px;
+}
+.abc {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #a3d9ff;
+    color:#4C2B36;
+    font-style: italic;
+    /* font-weight: 3rem; */
+}
+
+.admin-title {
+    margin: -18px;
+    font-size: 24px;
+    font-weight: 4rem;
+}
+
+.orders-title {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+    font-weight: 3rem;
+}
+
+.orders-container {
+    padding: 20px;
+}
+
+.order-block {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9; /* Default background color */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.order-block.confirmed {
+    background-color: #d4edda; /* Light green background for confirmed orders */
+}
+
+.order-block.canceled {
+    background-color: #f8d7da; /* Light red background for canceled orders */
+}
+
+.user-info {
+    margin-bottom: 10px;
+}
+
+.items-list ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.items-list li {
+    margin-bottom: 5px;
+}
+
+.status-actions {
+    margin-top: 10px;
+}
+
+.status-actions button {
+    padding: 10px 15px;
+    margin-right: 10px; /* Add some space between buttons */
+    background-color: black; /* Blue color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.status-actions button:hover {
+    background-color: #0a77eb; /* Darker blue on hover */
+}
+
+.cancellation-message {
+    color: #ff0019; /* Dark red color for cancellation message */
+}
+
+.confirmation-message {
+    color: #155724; /* Dark green color for confirmation message */
+}
